@@ -26,13 +26,13 @@ Either
 
 **M1: Visual Studio [Recommended]**
 
-Install Visual Studio with C++, download the SFML binary for your Visual Studio version, follow all the setup instructions in the [SFML tutorial](http://www.sfml-dev.org/tutorials/2.3/start-vc.php).
+Install Visual Studio with C++, download the SFML binary for your Visual Studio version, follow all the setup instructions in the [SFML tutorial](https://www.sfml-dev.org/tutorials/2.4/start-vc.php).
 
 Or
 
 **M2: MinGW / g++, from command line**
 
-Download [MinGW **6.1.0**](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/6.1.0/threads-posix/dwarf/i686-6.1.0-release-posix-dwarf-rt_v5-rev0.7z/download), and download the SFML binary for MinGW from the downloads page. Make sure you add the `bin` folder for MinGW to your path so that you can use g++.
+Download MinGW **6.1.0** ([32bit](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/6.1.0/threads-posix/dwarf/i686-6.1.0-release-posix-dwarf-rt_v5-rev0.7z/download)) ([64bit](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/6.1.0/threads-posix/seh/x86_64-6.1.0-release-posix-seh-rt_v5-rev0.7z/download)), and download the SFML binary for MinGW from the downloads page. Make sure you add the `bin` folder for MinGW to your path so that you can use g++.
 - NOTE: You must use the exact version of MinGW (or TDM) corresponding to the SFML binary you downloaded. It won't work otherwise. (e.g. if you download SFML for GCC 6.1.0 MinGW (DW2) - 32-bit, make sure you use the 32-bit version of MinGW 6.1.0 along with it.
 
 Place the sfml contents in a folder called "sfml" in the same directory as your game code, and run these two lines to build:
