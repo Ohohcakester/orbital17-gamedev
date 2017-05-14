@@ -1,10 +1,12 @@
 # SFML Sample Code
 
-* Sample sfml code to be used as a compilation test: [sfml_sample.cpp](https://raw.githubusercontent.com/Ohohcakester/gdg-sfml-workshop/master/compilation_tests/sample_game.cpp?token=AE989UeWcuWW9S6mQSNjnEadbe22VENZks5XUCg6wA%3D%3D)
+* Sample sfml code to be used as a compilation test: [sample_game.cpp](https://raw.githubusercontent.com/Ohohcakester/orbital17-gamedev/master/compilation_tests/sample_game.cpp)
 
 Expected Result:
 
 ![sfml_sample](images/sfml_sample.gif)
+
+* If that does not work, you can try this simpler example instead: [sample_minimal.cpp](https://raw.githubusercontent.com/Ohohcakester/orbital17-gamedev/master/compilation_tests/sample_minimal.cpp)
 
 # Compiling with SFML
 
