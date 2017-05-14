@@ -32,7 +32,7 @@ Or
 
 **M2: MinGW / g++, from command line**
 
-Download [MinGW **6.1.0**](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/6.1.0/threads-posix/dwarf/i686-6.1.0-release-posix-dwarf-rt_v5-rev0.7z/download), and download the SFML binary for MinGW from the downloads page. Make sure you add the `bin` folder for MinGW to your path so that you can use g++. Ask me if you don't know how to do that.
+Download [MinGW **6.1.0**](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/6.1.0/threads-posix/dwarf/i686-6.1.0-release-posix-dwarf-rt_v5-rev0.7z/download), and download the SFML binary for MinGW from the downloads page. Make sure you add the `bin` folder for MinGW to your path so that you can use g++.
 - NOTE: You must use the exact version of MinGW (or TDM) corresponding to the SFML binary you downloaded. It won't work otherwise. (e.g. if you download SFML for GCC 6.1.0 MinGW (DW2) - 32-bit, make sure you use the 32-bit version of MinGW 6.1.0 along with it.
 
 Place the sfml contents in a folder called "sfml" in the same directory as your game code, and run these two lines to build:
