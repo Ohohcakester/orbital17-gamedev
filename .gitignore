@@ -1,0 +1,4 @@
+dlls/
+sfml/
+_build/
+*.bat
