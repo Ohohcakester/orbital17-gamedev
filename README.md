@@ -1,3 +1,24 @@
+# Workshop Slides
+
+* [The slides for the workshop are available here](../../raw/master/slides.pdf)
+
+# Source Code
+
+* The directory [game_sfml](../../tree/master/game_sfml) contains v0.cpp to v10.cpp, which are the "checkpoints" during the workshop.
+  - **v0.cpp**: Display
+  - **v1.cpp**: Functions to Update and Draw frames
+  - **v2.cpp**: Basic Keyboard Input
+  - **v3.cpp**: Player Class
+  - **v4.cpp**: Gravity and Jumping
+  - **v5.cpp**: Bullets
+  - **v6.cpp**: Enemies
+  - **v7.cpp**: Collision Detection
+  - **v8.cpp**: Enemies that can attack you (by shooting bullets)
+  - **v9.cpp**: Platforms
+  - **v10.cpp**: Restart Button
+* The exact same game has been written in [HTML5 (js)](../../tree/master/game_html5), [PyGame (python 2/3)](../../tree/master/game_pygame) and [libGDX (java)](../../tree/master/game_libgdx)
+* The html5 version of the game can be played online [here](https://rawgit.com/Ohohcakester/orbital17-gamedev/master/game_html5/index.html)
+
 # SFML Sample Code
 
 * Sample sfml code to be used as a compilation test: [sample_game.cpp](https://raw.githubusercontent.com/Ohohcakester/orbital17-gamedev/master/compilation_tests/sample_game.cpp)
