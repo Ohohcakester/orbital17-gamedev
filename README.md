@@ -1,10 +1,12 @@
 # SFML Sample Code
 
-* Sample sfml code to be used as a compilation test: [sfml_sample.cpp](https://raw.githubusercontent.com/Ohohcakester/gdg-sfml-workshop/master/compilation_tests/sample_game.cpp?token=AE989UeWcuWW9S6mQSNjnEadbe22VENZks5XUCg6wA%3D%3D)
+* Sample sfml code to be used as a compilation test: [sample_game.cpp](https://raw.githubusercontent.com/Ohohcakester/orbital17-gamedev/master/compilation_tests/sample_game.cpp)
 
 Expected Result:
 
 ![sfml_sample](images/sfml_sample.gif)
+
+* If that does not work, you can try this simpler example instead: [sample_minimal.cpp](https://raw.githubusercontent.com/Ohohcakester/orbital17-gamedev/master/compilation_tests/sample_minimal.cpp)
 
 # Compiling with SFML
 
@@ -26,13 +28,13 @@ Either
 
 **M1: Visual Studio [Recommended]**
 
-Install Visual Studio with C++, download the SFML binary for your Visual Studio version, follow all the setup instructions in the [SFML tutorial](http://www.sfml-dev.org/tutorials/2.3/start-vc.php).
+Install Visual Studio with C++, download the SFML binary for your Visual Studio version, follow all the setup instructions in the [SFML tutorial](https://www.sfml-dev.org/tutorials/2.4/start-vc.php).
 
 Or
 
 **M2: MinGW / g++, from command line**
 
-Download [MinGW **6.1.0**](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/6.1.0/threads-posix/dwarf/i686-6.1.0-release-posix-dwarf-rt_v5-rev0.7z/download), and download the SFML binary for MinGW from the downloads page. Make sure you add the `bin` folder for MinGW to your path so that you can use g++. Ask me if you don't know how to do that.
+Download MinGW **6.1.0** ([32bit](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/6.1.0/threads-posix/dwarf/i686-6.1.0-release-posix-dwarf-rt_v5-rev0.7z/download)) ([64bit](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/6.1.0/threads-posix/seh/x86_64-6.1.0-release-posix-seh-rt_v5-rev0.7z/download)), and download the SFML binary for MinGW from the downloads page. Make sure you add the `bin` folder for MinGW to your path so that you can use g++.
 - NOTE: You must use the exact version of MinGW (or TDM) corresponding to the SFML binary you downloaded. It won't work otherwise. (e.g. if you download SFML for GCC 6.1.0 MinGW (DW2) - 32-bit, make sure you use the 32-bit version of MinGW 6.1.0 along with it.
 
 Place the sfml contents in a folder called "sfml" in the same directory as your game code, and run these two lines to build:
